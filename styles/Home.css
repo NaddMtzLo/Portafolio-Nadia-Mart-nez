@@ -3,3 +3,26 @@
     flex-direction: row;
     justify-content: end;
 }
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    background-color:black;
+    border-radius:0%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    }
+    .btn:hover {
+    background-color: #e5989b;
+    color: #fff;
+    }
