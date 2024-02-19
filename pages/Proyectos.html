@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/Proyectos.css">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=League+Spartan:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Menú-->
     <div class="menu-container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/pages/Home.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/pages/SobreMi.html">Sobre mí</a>
@@ -40,24 +45,31 @@
     <!--Proyectos-->
     <div class="cards-container">
         <!--Pokédex-->
-        <div class="pokedex card" style="width: 18rem;">
-            <img src="/src/images/pokedex.jpg" class="card-img-top" alt="...">
+        <div class="card bg-transparent" style="width: 18rem;">
+            <img src="/src/images/pokedex.jpg" class="card-img-top pokedex" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Se despliegan tarjetas de los diferentes tipos de pokémon, el fondo se colorea según el tipo, tiene un campo para logearse. En este proyecto se usó react.</p>
             </div>
         </div>
         <!--Lista de compras-->
-        <div class="shopList card" style="width: 18rem;">
-            <img src="/src/images/pokedex.jpg" class="card-img-top" alt="...">
+        <div class="card bg-transparent" style="width: 18rem;">
+            <img src="/src/images/shopList.png" class="card-img-top shopList" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Se muestra una página que permite crear una lista de compras de forma dinámica usando HTML y Javascript</p>
             </div>
         </div>
         <!--E-commerce-->
-        <div class="shopList card" style="width: 18rem;">
-            <img src="/src/images/pokedex.jpg" class="card-img-top" alt="...">
+        <div class="card bg-transparent" style="width: 18rem;">
+            <img src="/src/images/eCommerce.jpg" class="card-img-top eCommerce" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Página elaborada para una tienda en línea de maquillaje, se pueden hacer compras dentro de ella, se puede iniciar sesión para guardar los productos que se agregan al carrito, contiene un formulario de contáctanos</p>
+            </div>
+        </div>
+        <!--Juego barcos pirata-->
+        <div class="card bg-transparent" style="width: 18rem;">
+            <img src="/src/images/barcoPirata.png" class="card-img-top game" alt="...">
+            <div class="card-body">
+                <p class="card-text">Juego que consiste en un cañón que lanza balas a un barco que se acerca, fue construido aplicando POO.</p>
             </div>
         </div>
     </div>
